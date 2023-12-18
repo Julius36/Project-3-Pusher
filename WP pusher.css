@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+body{
+    background: #F5F8FA;
+
+}
+.header{
+    margin-top: 28px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 30px;
+    font-weight: 700;
+
+}
+ul{
+    list-style: none;
+    float: right;
+}
+li{
+    display: inline-block;
+    margin-left: 20px;
+    margin-right: 50px;
+    line-height: 16.8px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #1D2C3C;
+}
+#account{
+    border: 1px solid;
+    padding: 8px;
+    border-radius: 5px;
+}
+.content{
+   display: flex;
+   margin-top: 250px; /*186*/
+   flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding: 30px 20px;
+    width: 100%;
+}
+.holder{
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.05), 0px 15px 35px 0px rgba(43, 64, 78, 0.10);
+}
+.second{
+    background: #1179BF;
+    max-width: 250px;
+    padding: 30px 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-top: 42px;
+}
+
+.first h1{
+    font-size: 24px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 34px;
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 24px;
+}
+.first{
+    background: transparent;
+    padding: 49px;
+}
+.basic-info, .pay-info{
+    border-bottom: 1px solid #E4E4E4;
+    padding-bottom: 41px;
+    margin-bottom: 39px;
+}
+.basic-infos{
+    display: flex;
+    gap:10px;
+    margin-bottom: 9px;
+    margin-top: 30px;
+
+}
+.basic-infos p{
+    padding: 3px 8px;
+    border-radius: 100%;
+    border: 2px solid #548BC5;
+    color: #548BC5;
+}
+
+.names{
+    display: flex;
+    gap: 30px;
+}
+.textSide{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-weight: 400;
+}
+input{
+    padding: 10px 20px;
+    border-radius: 8px;
+    background: #F5F8FA;
+    outline: none;
+    border: none;
+    height: 36px;
+    width: 227px;
+}
+.b{
+    margin-top: 15px;
+}
+
+input[type="submit"]{
+    background: #038E7D;
+    color: white;
+    font-size: 14px;
+    width: 100%;
+    height: 52px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+input[type="email"]{
+    width: 370px;
+}
+input[type="number"]{
+    width: 530px;
+}
+.help{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin-top: 30px;
+}
+.stripe{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 41px;
+}
+.stripe{
+    background: #DADADA;
+    margin-top: 7px;
+    color: white;
+    font-size: 12px;
+    width: fit-content;
+    margin: 10px auto;
+    padding: 5px 4px;
+    border-radius: 4px;
+}
+.money{
+    display: flex;
+    gap: 2px;
+
+}
+.money span{
+    display: flex;
+    align-items: end;
+    font-size: 48px;
+}
+.money small{
+    font-size: 18px;
+    /* margin-top: 10px; */
+}
+.automatic{
+    width: 200px;
+    padding-bottom: 42px;
+}
+.automatic ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    align-items: flex-start;
+    justify-content: left;
+    width: 100%;
+}
+.second ul li{
+    display: flex;
+    gap: 12px;
+    margin-bottom: 10px;
+    /* align-items: center; */
+}
+.client{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-bottom: 41px;
+    border-bottom: 1px solid #E4E4E4;
+    margin-top: 38px;
+}
+.client p{
+    width: 200px;
+}
+.ftp{
+    padding-top: 41px;
+}
+.ftp span{
+    font-weight: 600;
+}
+.name{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    padding-top: 27px;
+}
+.name img{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+.name p{
+    font-size: 14px;
+    font-weight: 600;
+}
+.last{
+    margin-top: 31px;
+
+}
+.help span{
+    padding:3px 8px;
+    margin-top: -5px;
+    margin-right: 8px;
+    border-radius: 100%;
+    border: 2px solid #548BC5;
+    color: #548BC5
+}
